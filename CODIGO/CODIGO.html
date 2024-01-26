@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BINÁRIO</title>
+  <link rel="stylesheet" href="CODIGO.css">
+</head>
+<body>
+<div id="container">
+  <label for="texto">TEXTO/BINÁRIO:</label>
+  <input type="text" id="texto" placeholder="DIGITE OU COLE O TEXTO...">
+  <label for="tipoConversao">TIPO DE CONVERSÃO:</label>
+  <select id="tipoConversao">
+    <option value="binario">TEXTO PARA BINÁRIO</option>
+    <option value="texto">BINÁRIO PARA TEXTO</option>
+  </select>
+  <button onclick="converter()">CONVERTER</button>
+  <div id="resultado"></div>
+  <button onclick="copiar()">COPIAR</button>
+  <button onclick="limpar()">LIMPAR</button>
+
+  <div id="copiadoMensagem" class="copiado-mensagem"></div>
+</div>
+<script src="CODIGO.js"></script>
+</body>
+</html>
