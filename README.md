@@ -48,4 +48,3 @@ O projeto "TEXTO E BINÁRIO" oferece uma ferramenta para converter texto em bin�
 
 ## CREDITOS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-- [ESTÁ DISPONIVEL NO SITE](https://vilhalva.github.io/STYLER/STYLER.html)
